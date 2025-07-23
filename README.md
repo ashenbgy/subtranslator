@@ -46,7 +46,7 @@ sudo docker compose up -d
 http://localhost:5000
 ```
 
-- How to stop LibreTranslate:
-  ```bash
-  sudo docker compose down
-  ```
+How to stop LibreTranslate:
+```bash
+sudo docker compose down
+```
