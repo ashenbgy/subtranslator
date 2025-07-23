@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Subtitle Translator & Chatbot</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+  <!-- Subtitle Translator -->
+  <div class="wrapper">
+    <div class="container">
+      <h1>Subtitle Translator</h1>
+
+      <div class="form-group">
+        <label for="sourceLanguage">Source Language:</label>
+        <select id="sourceLanguage"></select>
+      </div>
+
+      <div class="form-group">
+        <label for="targetLanguage">Target Language:</label>
+        <select id="targetLanguage"></select>
+      </div>
+
+      <div class="form-group">
+        <label for="subtitleFile">Subtitle File (SRT):</label>
+        <input type="file" id="subtitleFile" accept=".srt" />
+      </div>
+
+      <div class="form-group">
+        <label for="engine">Translation Engine:</label>
+        <select id="engine" required>
+          <option value="" disabled selected>Select Engine</option>
+          <option value="gemini">Gemini</option>
+          <option value="google">Google Translate</option>
+          <option value="libre">Libre Translate (Open Source)</option>
+        </select>
+      </div>
+
+      <button id="translateBtn">Translate Subtitles</button>
+      <button id="downloadBtn">Download Translated Subtitles</button>
+
+      <div id="statusMessage" class="status"></div>
+    </div>
+  </div>
+
+  <!-- Chatbot Button -->
+  <button id="chatToggle">Chat with Gemii</button>
+
+  <!-- Floating Chatbot Panel -->
+  <div id="chatbotWidget">
+    <div id="chatbotHeader">Gemii</div>
+    <div class="container" style="padding: 10px;">
+      <div id="chat"></div>
+      <input id="inputBox" type="text" placeholder="Type your message..." />
+      <button id="sendBtn" style="width: 100%; margin-top: 5px;">Send</button>
+    </div>
+  </div>
+
+  <script src="js/scripts.js"></script>
+</body>
+</html>
