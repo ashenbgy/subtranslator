@@ -13,7 +13,7 @@ A powerful web-based subtitle translator and chatbot built using **Spring Boot**
   - Gemini API
   - LibreTranslate (self-hosted)
 - 🧠 Chatbot interface for general queries
-- 📦 Web UI with drag-and-drop upload
+- 📦 Web UI for upload
 - 🌙 Clean and modern UI with separate JS and CSS
 
 ---
