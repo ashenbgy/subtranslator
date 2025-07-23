@@ -31,7 +31,7 @@ You can either:
   or  
 - Clone the repository:
 
-```bash
+bash
 git clone https://github.com/LibreTranslate/LibreTranslate.git
 cd LibreTranslate
 
@@ -42,5 +42,5 @@ sudo docker compose up -d
 http://localhost:5000
 
 - How to stop LibreTranslate:
-  ```bash
+  bash
   sudo docker compose down
