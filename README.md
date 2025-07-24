@@ -36,9 +36,10 @@ git clone https://github.com/LibreTranslate/LibreTranslate.git
 cd LibreTranslate
 ```
 
-🐳 Run LibreTranslate Using Docker Compose
+🐳 Run LibreTranslate
 ```bash
-sudo docker compose up -d
+chmod +x run.sh
+./run.sh
 ```
 
 🧪 Open in Browser and Verify LibreTranslate is Running:
